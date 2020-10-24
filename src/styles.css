@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-image: url(./images/blue-1973844_1920.jpg);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+.timer {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 200px;
+}
+
+.field {
+  display: inline-block;
+  width: 150px;
+  padding: 12px;
+  border-radius: 5px;
+  background: #5385c5;
+}
+
+.value {
+  display: inline-block;
+  width: 80px;
+  padding: 35px;
+  border-radius: 5px;
+    background-image: linear-gradient(
+    to right,
+    rgba(119, 180, 230, 0.884),
+    rgba(9, 46, 146, 0.8)
+  );
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
