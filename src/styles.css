@@ -19,6 +19,7 @@ body {
 .field {
   display: inline-block;
   width: 150px;
+  margin: 20px;
   padding: 12px;
   border-radius: 5px;
   background: #5385c5;
