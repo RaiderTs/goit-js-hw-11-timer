@@ -60,7 +60,7 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Dec 31, 2020'),
+  targetDate: new Date('Dec 31, 2021'),
 });
 window.onload = timer.startTime();
 // document.addEventListener('DOMContentLoaded', timer.startTime());
